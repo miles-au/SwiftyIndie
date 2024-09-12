@@ -7,9 +7,9 @@ import * as ROUTES from '../../constants/routes';
 import Header from './Header';
 
 import HomePage from '../Home/Home';
+import ContactUs from '../ContactUs/ContactUs';
 import PrivacyPolicy from '../PrivacyPolicy/PrivacyPolicy';
 import Terms from '../Terms/Terms';
-import ContactUs from '../ContactUs/ContactUs';
 
 const router = createHashRouter([
   {

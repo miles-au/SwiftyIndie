@@ -1,5 +1,5 @@
 {
-  "name": "BeforeYouGoReact",
+  "name": "SwiftyIndie",
   "version": "0.1.0",
   "private": false,
   "dependencies": {
@@ -39,7 +39,7 @@
       "last 1 safari version"
     ]
   },
-  "homepage": "https://milesau.com/BeforeYouGoReact/",
+  "homepage": "https://milesau.com/SwiftyIndie/",
   "devDependencies": {
     "gh-pages": "^2.2.0"
   }
