@@ -4,7 +4,7 @@ function BaddyBuddyTerms() {
     return (
         <div className="terms-page container">
             <section className="mw5 mw7-ns pa3 ph5-ns">
-                <h1>Terms and Conditions</h1>
+                <h1>BaddyBuddy Terms and Conditions</h1>
             </section>
 
             <section>
