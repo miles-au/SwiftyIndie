@@ -8,8 +8,8 @@ import Header from './Header';
 
 import HomePage from '../Home/Home';
 import ContactUs from '../ContactUs/ContactUs';
-import PrivacyPolicy from '../PrivacyPolicy/PrivacyPolicy';
-import Terms from '../Terms/Terms';
+import BaddyBuddyPrivacyPolicy from '../BaddyBuddy/PrivacyPolicy';
+import BaddyBuddyTerms from '../BaddyBuddy/Terms';
 
 const router = createHashRouter([
   {
@@ -17,16 +17,16 @@ const router = createHashRouter([
     element: <HomePage />,
   },
   {
-    path: ROUTES.PRIVACY_POLICY,
-    element: <PrivacyPolicy />,
-  },
-  {
-    path: ROUTES.TERMS,
-    element: <Terms />,
-  },
-  {
     path: ROUTES.CONTACT_US,
     element: <ContactUs />,
+  },
+  {
+    path: ROUTES.BADDYBUDDY_PRIVACY_POLICY,
+    element: <BaddyBuddyPrivacyPolicy />,
+  },
+  {
+    path: ROUTES.BADDYBUDDY_TERMS,
+    element: <BaddyBuddyTerms />,
   },
 ]);
 

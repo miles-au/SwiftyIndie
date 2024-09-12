@@ -1,6 +1,6 @@
 import React from 'react';
 
-function Terms() {
+function BaddyBuddyTerms() {
     return (
         <div className="terms-page container">
             <section className="mw5 mw7-ns pa3 ph5-ns">
@@ -27,5 +27,5 @@ function Terms() {
     );
 }
 
-export default Terms;
+export default BaddyBuddyTerms;
 
