@@ -1,0 +1,54 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Gaegu:wght@300;400;700&display=swap');
+
+// colors
+$BrandBlue: #5396B0;
+$BrandGrey: #343434;
+$BrandWhite: #FFFFFF;
+
+.BrandBlue{
+  color: $BrandBlue
+}
+.BrandBlue-bg{
+  background-color: $BrandBlue
+}
+
+.brandGrey{
+  color: $BrandGrey
+}
+.brandGrey-bg{
+  background-color: $BrandGrey
+}
+
+$defaultPadding: 10px 20px;
+.defaultPadding{
+  padding: $defaultPadding;
+}
+
+// fonts
+h3, h4, h5, h6, p, a, ul, li, span{
+  font-family: 'Montserrat', sans-serif;
+  color: $BrandGrey;
+}
+
+h1{
+  color: $BrandGrey;
+  font-family: 'Gaegu', cursive;
+  font-weight: 700;
+}
+
+h2{
+  color: $BrandGrey;
+  font-family: 'Gaegu', cursive;
+}
+
+a, span{
+  color: $BrandGrey;
+}
+
+body {
+  background-color: $BrandBlue;
+  margin: 0;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
