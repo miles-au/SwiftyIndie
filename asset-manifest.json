@@ -1,13 +1,13 @@
 {
   "files": {
     "main.css": "/SwiftyIndie/static/css/main.9a3eaeab.css",
-    "main.js": "/SwiftyIndie/static/js/main.a61e9275.js",
+    "main.js": "/SwiftyIndie/static/js/main.a05f712a.js",
     "index.html": "/SwiftyIndie/index.html",
     "main.9a3eaeab.css.map": "/SwiftyIndie/static/css/main.9a3eaeab.css.map",
-    "main.a61e9275.js.map": "/SwiftyIndie/static/js/main.a61e9275.js.map"
+    "main.a05f712a.js.map": "/SwiftyIndie/static/js/main.a05f712a.js.map"
   },
   "entrypoints": [
     "static/css/main.9a3eaeab.css",
-    "static/js/main.a61e9275.js"
+    "static/js/main.a05f712a.js"
   ]
 }
