@@ -2,12 +2,16 @@ import React from 'react';
 
 function Terms() {
     return (
-        <div className="terms-page container">
-            <section className="mw5 mw7-ns pa3 ph5-ns">
+        <div className="legal-page legal-page--terms container">
+            <section className="legal-page__hero">
+                <p className="legal-page__eyebrow">SwiftyIndie</p>
                 <h1>Terms and Conditions</h1>
+                <p className="legal-page__intro">
+                    The general terms that apply across apps and services published by Kyle Au through SwiftyIndie.
+                </p>
             </section>
 
-            <section>
+            <section className="legal-page__content">
                 <p>These Terms and Conditions apply to mobile applications and related services published by Kyle Au through SwiftyIndie, unless a specific app includes its own separate terms.</p>
                 <p>By downloading, installing, accessing, or using any of our apps, you agree to these Terms and Conditions. If you do not agree, do not use the app.</p>
                 <p>We grant you a limited, non-exclusive, non-transferable, revocable license to use our apps for your personal, lawful use. You may not copy, modify, distribute, sell, reverse engineer, decompile, or attempt to extract the source code of any app except where applicable law expressly permits it.</p>
@@ -21,10 +25,10 @@ function Terms() {
                 <p>You may stop using an app at any time by uninstalling it. We may suspend or terminate your access if you violate these terms or if we decide to discontinue an app.</p>
             </section>
 
-            <section>
+            <section className="legal-page__content legal-page__content--secondary">
                 <h2>Changes to This Terms and Conditions</h2>
                 <p>We may update these Terms and Conditions from time to time. When we do, we will post the updated version on this page. Your continued use of an app after the updated terms become effective means you accept the revised terms.</p>
-                <p>These Terms and Conditions are effective as of March 24, 2026.</p>
+                <p className="legal-page__effective-date">Effective date: March 24, 2026.</p>
             </section>
         </div>
     );
