@@ -17,6 +17,9 @@ function Terms() {
                 <p>We grant you a limited, non-exclusive, non-transferable, revocable license to use our apps for your personal, lawful use. You may not copy, modify, distribute, sell, reverse engineer, decompile, or attempt to extract the source code of any app except where applicable law expressly permits it.</p>
                 <p>All intellectual property rights in the apps, including software, text, graphics, branding, and related content, remain the property of Kyle Au or the relevant licensors.</p>
                 <p>We may update, change, suspend, or discontinue any app or feature at any time, with or without notice. Some apps may be offered for free, and some may include paid features now or in the future. If we charge for any feature, we will make that clear before you are asked to pay.</p>
+                <p>If an app offers in-app purchases, subscriptions, or other paid features, those transactions are processed by the platform provider, such as Apple, and may be managed through RevenueCat or another subscription service provider. Prices, billing periods, free trials, renewal terms, and available features will be shown in the app before purchase.</p>
+                <p>Subscriptions automatically renew unless canceled at least 24 hours before the end of the current billing period, unless the platform provider states otherwise. You can manage or cancel subscriptions through your App Store account settings. Refunds, billing disputes, and payment issues are generally handled by the platform provider that processed the purchase.</p>
+                <p>Paid access, premium features, and subscription entitlements may change, be suspended, or end if a subscription expires, is canceled, is refunded, or if the applicable app or feature is discontinued.</p>
                 <p>You are responsible for your device, internet access, mobile carrier charges, and keeping your software up to date. Some features may not work properly without a supported device, internet connection, or current operating system version.</p>
                 <p>You agree not to misuse our apps, interfere with their normal operation, attempt unauthorized access to any systems or data, or use the apps in a way that violates applicable law or the rights of others.</p>
                 <p>Some apps may rely on third-party services, such as app stores, analytics providers, crash reporting tools, hosting providers, or internet service providers. We are not responsible for outages, failures, pricing changes, or policies of those third parties.</p>
@@ -28,7 +31,7 @@ function Terms() {
             <section className="legal-page__content legal-page__content--secondary">
                 <h2>Changes to This Terms and Conditions</h2>
                 <p>We may update these Terms and Conditions from time to time. When we do, we will post the updated version on this page. Your continued use of an app after the updated terms become effective means you accept the revised terms.</p>
-                <p className="legal-page__effective-date">Effective date: March 24, 2026.</p>
+                <p className="legal-page__effective-date">Effective date: March 24, 2026. Updated for subscription and RevenueCat-related terms.</p>
             </section>
         </div>
     );
