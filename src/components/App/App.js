@@ -1,7 +1,7 @@
 import './App.scss';
 
 import React from 'react';
-import { createHashRouter, RouterProvider } from "react-router-dom";
+import { createHashRouter, Navigate, RouterProvider } from "react-router-dom";
 import * as ROUTES from '../../constants/routes';
 
 import Header from './Header';
@@ -10,10 +10,6 @@ import HomePage from '../Home/Home';
 import ContactUs from '../ContactUs/ContactUs';
 import PrivacyPolicy from '../Standard/PrivacyPolicy';
 import Terms from '../Standard/Terms';
-import BaddyBuddyPrivacyPolicy from '../BaddyBuddy/PrivacyPolicy';
-import BaddyBuddyTerms from '../BaddyBuddy/Terms';
-import OutfitsPrivacyPolicy from '../Outfits/PrivacyPolicy';
-import OutfitsTerms from '../Outfits/Terms';
 
 const router = createHashRouter([
   {
@@ -34,19 +30,19 @@ const router = createHashRouter([
   },
   {
     path: ROUTES.BADDYBUDDY_PRIVACY_POLICY,
-    element: <BaddyBuddyPrivacyPolicy />,
+    element: <Navigate to={`/${ROUTES.STANDARD_PRIVACY_POLICY}`} replace />,
   },
   {
     path: ROUTES.BADDYBUDDY_TERMS,
-    element: <BaddyBuddyTerms />,
+    element: <Navigate to={`/${ROUTES.STANDARD_TERMS}`} replace />,
   },
   {
     path: ROUTES.OUTFITS_PRIVACY_POLICY,
-    element: <OutfitsPrivacyPolicy />,
+    element: <Navigate to={`/${ROUTES.STANDARD_PRIVACY_POLICY}`} replace />,
   },
   {
     path: ROUTES.OUTFITS_TERMS,
-    element: <OutfitsTerms />,
+    element: <Navigate to={`/${ROUTES.STANDARD_TERMS}`} replace />,
   },
 ]);
 
