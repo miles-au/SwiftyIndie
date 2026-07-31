@@ -9,6 +9,7 @@ import Header from './Header';
 import HomePage from '../Home/Home';
 import ContactUs from '../ContactUs/ContactUs';
 import PrivacyPolicy from '../Standard/PrivacyPolicy';
+import MetaDataDeletion from '../Standard/MetaDataDeletion';
 import Terms from '../Standard/Terms';
 
 const router = createHashRouter([
@@ -27,6 +28,14 @@ const router = createHashRouter([
   {
     path: ROUTES.STANDARD_TERMS,
     element: <Terms />,
+  },
+  {
+    path: ROUTES.META_DATA_DELETION,
+    element: <MetaDataDeletion />,
+  },
+  {
+    path: 'sizzly-data-deletion',
+    element: <Navigate to={`/${ROUTES.META_DATA_DELETION}`} replace />,
   },
   {
     path: ROUTES.BADDYBUDDY_PRIVACY_POLICY,
