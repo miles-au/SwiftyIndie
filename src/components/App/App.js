@@ -9,6 +9,7 @@ import Header from './Header';
 import HomePage from '../Home/Home';
 import ContactUs from '../ContactUs/ContactUs';
 import PrivacyPolicy from '../Standard/PrivacyPolicy';
+import OutfitsPrivacyPolicy from '../Outfits/PrivacyPolicy';
 import MetaDataDeletion from '../Standard/MetaDataDeletion';
 import Terms from '../Standard/Terms';
 
@@ -47,7 +48,7 @@ const router = createHashRouter([
   },
   {
     path: ROUTES.OUTFITS_PRIVACY_POLICY,
-    element: <Navigate to={`/${ROUTES.STANDARD_PRIVACY_POLICY}`} replace />,
+    element: <OutfitsPrivacyPolicy />,
   },
   {
     path: ROUTES.OUTFITS_TERMS,
