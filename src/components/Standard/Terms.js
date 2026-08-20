@@ -22,6 +22,9 @@ function Terms() {
                 <p>Paid access, premium features, and subscription entitlements may change, be suspended, or end if a subscription expires, is canceled, is refunded, or if the applicable app or feature is discontinued.</p>
                 <p>You are responsible for your device, internet access, mobile carrier charges, and keeping your software up to date. Some features may not work properly without a supported device, internet connection, or current operating system version.</p>
                 <p>You agree not to misuse our apps, interfere with their normal operation, attempt unauthorized access to any systems or data, or use the apps in a way that violates applicable law or the rights of others.</p>
+                <h2>User content</h2>
+                <p>Some features let you upload or share content, such as clothing photos on a shared trip or an optional profile photo. You retain ownership of your content. You grant Kyle Au / SwiftyIndie a limited, worldwide, non-exclusive license to store, process, and display that content solely as needed to operate the features you use (for example, showing a profile photo or item thumbnail to other members of a shared trip).</p>
+                <p>You represent that you have the rights needed to upload the content and that it does not violate applicable law or the rights of others. Do not upload illegal content, content you do not have permission to share, or images of other people without appropriate permission. We may remove content or suspend or terminate access if we believe content or use violates these terms or creates risk for users or the service.</p>
                 <p>Some apps may rely on third-party services, such as app stores, analytics providers, crash reporting tools, hosting providers, or internet service providers. We are not responsible for outages, failures, pricing changes, or policies of those third parties.</p>
                 <p>Our apps are provided on an &quot;as is&quot; and &quot;as available&quot; basis without warranties of any kind to the fullest extent permitted by law. We do not guarantee that any app will always be available, error-free, secure, or suitable for your specific needs.</p>
                 <p>To the fullest extent permitted by law, Kyle Au will not be liable for any indirect, incidental, special, consequential, or punitive damages, or for any loss of data, profits, business, or goodwill arising out of or related to your use of the apps. If applicable law does not allow certain limitations, those limitations will apply only to the maximum extent permitted.</p>
@@ -31,7 +34,7 @@ function Terms() {
             <section className="legal-page__content legal-page__content--secondary">
                 <h2>Changes to This Terms and Conditions</h2>
                 <p>We may update these Terms and Conditions from time to time. When we do, we will post the updated version on this page. Your continued use of an app after the updated terms become effective means you accept the revised terms.</p>
-                <p className="legal-page__effective-date">Effective date: March 24, 2026. Updated for subscription and RevenueCat-related terms.</p>
+                <p className="legal-page__effective-date">Effective date: August 17, 2026. Added user-content terms for shared-trip photos and optional profile photos. Earlier: subscription and RevenueCat-related terms (March 24, 2026).</p>
             </section>
         </div>
     );
